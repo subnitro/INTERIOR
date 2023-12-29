@@ -47,7 +47,7 @@ header li{
 
 banner{
   background-color: #E7F4EE;
-  background: url("./assets/banner.png");
+  background: url("https://res.cloudinary.com/djycgskiz/image/upload/v1703871959/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,7 +170,7 @@ clients{
   align-items: top;
   justify-content: space-around;
   
-  background-image: url("./assets/darck.jpg");
+  background-image: url("https://res.cloudinary.com/djycgskiz/image/upload/v1703871959/darck.jpg");
   background-position: center;
   color: white;
   padding: 24px;
