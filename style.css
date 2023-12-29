@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  padding: 0;
+  margin: auto;
+  /* max-width: 1000px */;
+}
+
+/* header */
+header{
+  padding: 20px;
+}
+header container{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav .menu{
+  display: none;
+}
+
+
+header ul{
+  display: flex;
+  flex-flow: row;
+}
+header li{
+  display: inline;
+  margin: 10px 13px;
+}
+
+/* banner */
+
+banner{
+  background-color: #E7F4EE;
+  background: url(/assets/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 500px;
+}
+
+banner container{
+  padding: 20px;
+  width: 70%;
+  
+}
+
+banner h1{
+  font-size: 70px;
+  font-weight: 700;
+}
+banner p{
+  
+  line-height: 20px;
+}
+
+banner button-container button{
+  padding: 12px 18px;
+  background: #EF2727;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: white;
+}
+
+banner button-container button:hover{
+  animation: wave 1.5s infinite;
+}
+@keyframes wave{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-6px);
+    box-shadow: 0 2px 5px #000000A3;
+    border-radius: 3px;
+  }
+  
+  100%{
+    transform: translateY(0);
+  }
+}
+
+/* main */
+
+main{
+  
+}
+
+main title-div{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  
+}
+title-div h1{
+  font-weight: 500;
+}
+
+/* flex-container */
+
+main flex-container{
+  
+}
+
+flex-container colunm{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+main flex-container image-div{
+  width: 100%;
+  background-color: #E7F4EE;
+}
+main flex-container colunm img{
+   /* border-image: fill 0 linear-gradient(#0003, #000);  */
+   width: 100%;
+}
+main flex-container colunm pera{
+  width: 100%;
+  
+}
+main flex-container colunm pera h1{
+  padding: 60px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  
+}
+main flex-container colunm pera p{
+  padding: 60px;
+  margin: 0;
+}
+
+/* row-div */
+
+/*row-div{
+  display: flex;
+  overflow: scroll; 
+  
+}*/
+
+
+
+
+
+/* clients */
+
+clients{
+  display: flex;
+  flex-flow: row;
+  align-items: top;
+  justify-content: space-around;
+  
+  background-image: url(/assets/darck.jpg);
+  background-position: center;
+  color: white;
+  padding: 24px;
+  
+  margin: 20px 0;
+  
+  border-bottom: 3px solid #EF2727;
+}
+clients card{
+  text-align: center;
+  background: white;
+  margin: 17px 8px;
+  border-radius: 3px;
+  padding: 10px;
+  width: calc(100%/2);
+  color: black;
+  letter-spacing: 1px;
+}
+
+/* clients card-h {
+} */
+
+
+card flex-row{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: left;
+  
+  margin-top: 27px;
+}
+
+card flex-row img{
+  border-radius: 555px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid lightgray;
+  margin: 6px 14px;
+}
+
+card row h1{
+  padding: 0;
+  margin: 0 0 0 0;
+  font-size: 30px;
+}
+
+card flex-row label{
+  color: darkgray;
+  margin-left: 2px;
+}
+
+
+/* footer */
+
+
+footer{
+  width: 100%;
+}
+
+footer container{
+  display: flex;
+  flex-flow: row;
+}
+
+footer container section{
+  padding: 20px;
+  width: calc(100%/4);
+  display: flex;
+  flex-flow: column;
+}
+
+cop-right{
+  padding: 30px 23px;
+  background: #393939;
+  display: flex;
+  color: white;
+}
+
+
+.fun{
+  transition: .5s;
+}
+
+.fun:hover{
+  transform: translateX(70px);
+}

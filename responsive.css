@@ -1,0 +1,98 @@
+@media (max-width: 700px) {
+  header img{
+    /* width: 100px; */
+  }
+  
+  nav .menu {
+    display: block;
+  }
+  
+  header nav ul{
+    display: none;
+  }
+  
+  
+  banner{
+    height: 430px;
+  }
+  
+  banner container{
+    width: 100%;
+  }
+  
+  banner container h1{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  banner button-container button{
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  title-div h1 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  
+  flex-container colunm{
+    flex-flow: column;
+  }
+  
+  
+  
+  row-div{
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  clients{
+    flex-flow: column;
+  }
+  
+  clients card{
+    width: 100%;
+  }
+  card-h{
+    text-align: center;
+  }
+  
+  
+  card row h1 {
+    padding: 0;
+    margin: 0 0 0 0;
+    font-size: 17px;
+  }
+  
+  
+  
+  footer container{
+    flex-flow: column;
+  }
+  footer container section{
+    width: 100%;
+  }
+  
+  footer container section img{
+    width: min-content;
+    
+  }
+  cop-right{
+    font-size: 12px;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  body{
+    padding: 0px 100px;
+  }
+}
